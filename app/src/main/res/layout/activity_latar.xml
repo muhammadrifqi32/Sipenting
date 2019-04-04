@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/bgappsnew"
+    tools:context=".latar">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/g1"
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/sawit" />
+        <TextView
+            android:id="@+id/t1"
+            android:layout_below="@+id/g1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="Tanaman kelapa sawit atau yang memiliki nama latin elaeis guinensis jack merupakan tumbuhan tropis yang tergolong dalam famili Palmae dan berasal dari Nigeria, Afrika Barat. Meskipun demikian, dapat tumbuh di luar daerah asalnya, termasuk di Indonesia. "/>
+        <ImageView
+            android:layout_below="@id/t1"
+            android:id="@+id/g2"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bedawarna"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_below="@+id/g2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="Untuk mengetahui tingkat kematangan TBS masih dilakukan dengan cara konvensional, yaitu dengan melihat perubahan warna dan jumlah brondolan yang jatuh."/>
+        <ImageView
+            android:layout_below="@id/t2"
+            android:id="@+id/g3"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/tumpukan" />
+        <TextView
+            android:id="@+id/t3"
+            android:layout_below="@+id/g3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="Saat buah telah dipanen, buah akan dikumpulkan sebelum diangkut truk ke pabrik. . Tentunya hanya buah yang layak untuk diolah yang akan diangkut truk untuk dibawa ke pabrik. Akan tetapi, untuk saat ini buah yang tidak layak angkut tetap ikut terangkut ke pabrik."/>
+        <ImageView
+            android:layout_below="@id/t3"
+            android:id="@+id/g4"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/citra"/>
+        <TextView
+            android:id="@+id/t4"
+            android:layout_below="@+id/g4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="Di era globalisasi seperti sekarang, teknologi bisa dimanfaatkan untuk mempermudah pendeteksian kematangan TBS. Salah satu teknologi yang bisa digunakan adalah pengolahan citra digital."/>
+        <ImageView
+            android:layout_below="@id/t4"
+            android:id="@+id/g5"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/mainmenu" />
+        <TextView
+            android:id="@+id/t5"
+            android:layout_below="@+id/g5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="Berdasarkan masalah diatas, maka dilakukanlah penelitian untuk membuat aplikasi pendeteksi kematangan TBS kelapa sawit dengan memanfaatkan citra. Dengan menggunakan citra dapat memberi informasi mengenai tingkat kematangan TBS yang layak dan tidak layak untuk diangkut ke pabrik."/>
+    </RelativeLayout>
+</ScrollView>
